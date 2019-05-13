@@ -5,9 +5,12 @@
 <% @items.each do |item| %>
   <h3>
     <%= item.item %>
-    <%= link_to '<i class="fas fa-pencil-alt"></i>'.html_safe, edit_item_path(item) %>
-    <%= link_to '<i class="fas fa-check"></i>'.html_safe, item, method: :delete, data: { confirm: 'Are you sure?' } %>
-  </h3>
+    <%= link_to '<i class="fa fa-pencil" aria-hidden="true"></i>'.html_safe, edit_item_path(item) %>
+
+     <%= link_to '<i class="fa fa-check" aria-hidden="true"></i>'.html_safe,
+     item, method: :delete, data: { confirm: 'Are you sure?' } %></h3>
+
+    
 <% end %>
 <br>
 <%= link_to 'New Item', new_item_path %>
