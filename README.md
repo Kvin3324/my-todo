@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Todo app where you can:
 
-Things you may want to cover:
+* Add a task.
 
-* Ruby version
+* Edit this one.
 
-* System dependencies
+* Mark as done.
 
-* Configuration
+Just simple but effective.
 
-* Database creation
+To this and use this one, you need to:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### git glone
+### bundle install
+### rails s
