@@ -12,6 +12,6 @@ Just simple but effective.
 
 To this and use this one, you need to:
 
-### git glone
-### bundle install
-### rails s
+`git clone`
+`bundle install`
+`rails s`
